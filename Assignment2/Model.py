@@ -3,7 +3,7 @@ import pyro
 import pyro.distributions as pdist
 
 
-class Model:
+class Model():
     def __init__(self, x_dim=4, y_dim=3, h_dim=5):
         self.x_dim=x_dim
         self.y_dim=y_dim
