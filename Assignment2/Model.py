@@ -1,7 +1,6 @@
+import torch
 import pyro
 import pyro.distributions as pdist
-import torch
-import torch.nn as tnn
 
 
 class Model:
