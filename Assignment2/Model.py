@@ -1,3 +1,9 @@
+import pyro
+import pyro.distributions as pdist
+import torch
+import torch.nn as tnn
+
+
 class Model:
     def __init__(self, x_dim=4, y_dim=3, h_dim=5):
         self.x_dim=x_dim
